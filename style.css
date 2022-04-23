@@ -1,0 +1,181 @@
+@import url(all.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Myraid pro;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+h4{
+    font-size: 36px;
+    color: #040404;
+}
+p{
+    font-size: 18px;
+    color:#262627;
+}
+
+/* Header */
+header{
+    background-image: url(../Image/Banner.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header h2{
+    font-size: 100px;
+    font-weight: 300px;
+    border: 2px solid;
+    
+}
+header h3{
+    font-size: 36px;
+}
+header h2 span{
+    color: #87d37c;
+}
+header a{
+    color: white;
+    font-size: 18px;
+}
+#menu div{
+    float: left;
+    margin-top: 15px;
+}
+#menu nav{
+    float: right;
+}
+#menu nav ul{
+    padding-top: 45px;
+}
+#menu nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+#menu nav ul li:last-child{
+    padding-right:0;
+}
+#menu nav ul li:hover a{
+    color: #87d37c;
+}
+.header-content{
+    clear:both;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+/* About section */
+#aboutus{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+#aboutus h4{
+    margin-bottom: 40px;
+}
+#aboutus h5{
+    font-size: 24px;
+    color: #030303;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#aboutus .row{
+    margin-top: 65px;
+}
+#aboutus .row p{
+    font-size: 14px;
+    color: #030303;
+}
+.row{
+    overflow:hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-3{
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#aboutus .col-3:hover span,#aboutus .col-3:hover h5{
+    color: #87d37c;
+}
+
+/* Services section */
+#services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(182, 180, 180);
+}
+#services h4{
+    margin-bottom: 40px;
+}
+#services .row{
+    margin-top: 75px;
+}
+#services .col-3{
+    position:relative;
+}
+#services .col-3 .servicesIcon{
+    position:absolute;
+    top:0;
+    left:15px;
+    background-color:rgba(0,0,0,.5);
+    height: 243px;
+    width: 270px;
+    /* opacity: .5; */
+    display:none;
+}
+#services .col-3 .servicesIcon div{
+    margin: 90px auto;
+    width: 60%;
+}
+#services  .col-3 .servicesIcon i{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 15px;
+}
+#services .col-3 .servicesIcon i:hover{
+    background-color: #87d37c;
+    border-color: #87d37c;
+}
+#services .col-3:hover .servicesIcon{
+    display:block;
+}
+
+/* Portfoliosection */
+#portfolio{
+    padding-top: 160px;
+}
+#portfolio ul li{
+    display: inline-block;
+    background-color: #030303;
+    color: #fff;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+#portfolio h4{
+    margin-bottom: 40px;
+}
