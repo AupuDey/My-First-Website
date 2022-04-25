@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Myraid pro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
@@ -172,7 +172,7 @@ header a{
 
 #portfolio{
     padding-top: 160px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 #portfolio .button{
     margin-top: 30px;
@@ -220,4 +220,185 @@ header a{
 }
 #portfolio .col-4:hover .portfolioIcon{
     display: block;
+}
+
+/*ourprices section goes here*/
+
+#ourprices{
+    background-color: #fdfafa;
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+#ourprices h4{
+    color:#000;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#ourprices .row{
+    margin-top: 105px;
+}
+#ourprices .col-3 div{
+    background-color: #39393a;
+    color:#fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+#ourprices .col-3 div h5{
+    font-size: 30px;
+    height: 130px;
+    width: 130px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+#ourprices .col-3 div sup{
+    font-size: 14px;
+}
+#ourprices .col-3 div sub{
+    font-size: 15px;
+}
+#ourprices .col-3 div span{
+    font-size: 20px;
+}
+#ourprices .col-3 div p{
+    font-size: 16px;
+    color: #fdfafa;
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin: 25px auto;
+}
+#ourprices button{
+    font-size: 16px;
+    padding: 7px 30px;
+    background-color: #fdfafa;
+    border: 1px solid #fdfafa;
+}
+#ourprices .col-3 div:hover{
+    background-color: #87d37c;
+}
+#ourprices .col-3 div:hover h5,#ourprices .col-3 div:hover button{
+    color: #87d37c;
+    background-color: #fdfafa;
+}
+
+/* FeedBack Section */
+
+#feedback{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../image/IMAGE10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+#feedback::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#feedback .feedback-text{
+    padding: 25px 40px;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,.3);
+    position: relative;
+}
+#feedback p{
+    color: #fff;
+    text-align: center;
+}
+#feedback p:first-child{
+    font-size: 72px;
+    font-weight: 900px;
+}
+
+/* ContactUs Section*/
+
+#contactus{
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background-color: #fdfafa;
+}
+#contactus h4{
+    color: #000;
+    margin-bottom: 80px;
+}
+#contactus .row{
+    margin: 90px;
+}
+#contactus h5{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #2a2a2a;
+}
+#contactus .col-3 p{
+    font-size: 10px;
+}
+#contactus .col-3:hover i,#contactus .col-3:hover  h5{
+    color: #87d37c;
+}
+
+/* formsection */
+
+#contactform{
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+#contactform .row .col-6{
+    display: inline-block;
+}
+input{
+    width: 600px;
+    padding: 12px 40px 12px 5px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+textarea{
+    margin-left: 20px;
+    width: 100%;
+}
+input[type="submit"]{
+    width: auto;
+    margin-left: 20px;
+    padding: 12px 30px;
+    background-color: #87d37c;
+    border: 1px solid #87d37c;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* footer section */
+
+#footersec{
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+    text-align: center;
+}
+#footersec .row .col-6{
+    display: block;
+}
+#footersec p, footer a{
+    color:#fff;
+}
+#footersec ul li{
+    margin-top: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+/* #footersec ul li:last-child{
+    margin-right: 0;
+} */
+#footersec ul li:hover a{
+    color: #87d37c;
 }
